@@ -1,0 +1,23 @@
+{
+    "name": "pavlyuts/portabilling-eventmonitor",
+    "description": "PortaOne billing Event monitor",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "homepage":"https://github.com/pavlyuts/portabilling-eventmonitor",
+    "keywords": [ "portaone", "billing",  "portastart", "event", "tools" ],
+    "require": {
+        "rmccue/requests": "^1.7"
+    },
+    "authors": [
+        {
+            "name": "Alexey Pavlyuts",
+            "email": "alexey@pavlyuts.ru",
+            "homepage": "https://pavlyuts.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Portaone\\": ""
+        }
+    }
+}
