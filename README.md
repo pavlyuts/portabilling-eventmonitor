@@ -4,10 +4,10 @@
 
 Intended to provide comfort view of event flow between PortOne billing and external handlers.
 
-The component allows to create REST andpoint, accepting all the events from billing, 
-and then passing it to real handler, storing the request and the answer in a round-robin buffer.
+The component allows to create REST endpoint, accepting all the events from billing, 
+and then passing it to the real handler, storing the request and the answer in a round-robin buffer.
 
-*Not properly tested, use at your own risk! This may create an extra  security risks as it has no any authentification*
+*Not properly tested, use at your own risk! This may create an extra  security risks as it use no authentification*
 
 ## Installation
 In the Composer storage. Just add proper require section:
